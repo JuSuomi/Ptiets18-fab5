@@ -1,0 +1,52 @@
+/* Oy Äänitys- ja tuotantofirma Ab
+
+*/
+
+html, h1, p {
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  font-size: 100%;
+
+  font: inherit;
+
+}
+
+header, footer {
+
+  display: block;
+
+}
+
+style {
+
+  box-sizing: border-box;
+
+}
+
+h1 {
+
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+
+  font-size: 1em;
+  margin: 5px 0;
+
+}
+
+header, p, footer {
+
+  border: 1px solid black
+
+  padding: 10px 1em;
+
+  margin: 0 5% 10px;
+
+}
