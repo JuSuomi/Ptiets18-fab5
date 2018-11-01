@@ -43,10 +43,12 @@ p {
 
 header, p, footer {
 
+  box-sizing: border-box;
+
   border: 1px solid black
 
   padding: 10px 1em;
 
-  margin: 0 5% 10px;
+  margin: 20px 10px;
 
 }
