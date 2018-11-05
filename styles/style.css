@@ -58,7 +58,7 @@ header, p, footer {
 
 footer {
 
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 95%;
   height: 60px; /*Height of the footer*/
