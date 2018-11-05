@@ -1,22 +1,13 @@
-/* Oy Äänitys- ja tuotantofirma Ab
-
-*
+/* Oy Äänitys- ja tuotantofirma Ab */
 
 body {
 
-  margin: auto;
+  margin: 0;
   border: 0;
-  padding: 10px 1em;
-  margin: 20px 20px;
+  padding: 1em 1em;
   font-size: 100%;
   font: inherit;
   text-align: center;
-
-}
-
-style {
-
-  box-sizing: border-box;
 
 }
 
@@ -32,19 +23,12 @@ p {
 
 }
 
-*/
-
-
 footer {
-
-  position: fixed;
+  position: absolute;
+  box-sizing: border-box;
   padding: 0.5em;
+  border: 2px solid black;
+  width: 95%;
   bottom: 0.5em;
-  width: 90%;
-  margin: 0;
-  text-align: center;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px
 
 }
