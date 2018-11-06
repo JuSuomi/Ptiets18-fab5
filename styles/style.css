@@ -24,11 +24,11 @@ p {
 }
 
 footer {
-  position: absolute;
   box-sizing: border-box;
-  padding: 0.5em;
-  border: 2px solid black;
-  width: 95%;
+  position: fixed;
   bottom: 0.5em;
-
+  width: 90%;
+  left: 5%;
+  padding: 1em;
+  border: 2px solid black;
 }
