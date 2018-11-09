@@ -1,5 +1,30 @@
 /* Los Studios Inc. */
 
+.main-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: 1em 5em 2em 5em;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.main-nav li a {
+  font-family: sans-serif;
+  padding: 0.5em 1em;
+}
+
+.main-nav li.active a {
+  border: 1px solid black;
+}
+
+.main-nav li a:hover {
+  border: 1px solid black;
+}
+
 body {
   margin: 0;
   border: 0;
@@ -10,7 +35,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
 }
 
