@@ -35,8 +35,8 @@ body {
   font: inherit;
   text-align: center;
   background-color: #000000;
+  background-image: url("../images/wall_4k.jpg.jpg");
 }
-
 h1 {
   font-size: 3em;
   font-weight: bold;
