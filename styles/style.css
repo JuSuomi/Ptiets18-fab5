@@ -28,6 +28,8 @@
 }
 
 body {
+  background-image: url("../images/wall_4k.jpg.jpg");
+  background-size: cover;
   margin: 0;
   border: 0;
   padding: 1em 1em;
@@ -36,8 +38,8 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: #000000;
-  background-image: url("../images/wall_4k.jpg.jpg");
 }
+
 h1 {
   font-size: 3em;
   font-weight: bold;
@@ -54,6 +56,6 @@ footer {
   width: 90%;
   left: 5%;
   padding: 0.5em;
-  border: 2px solid #282828;
-  color: #282828;
+  border: 2px solid white;
+  color: white;
 }
