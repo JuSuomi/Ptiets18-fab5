@@ -5,11 +5,13 @@
   justify-content: center;
   list-style: none;
   margin: 1em 5em 2em 5em;
+  color: #282828;
 }
 
 .main-nav li {
   display: inline-block;
-  padding: 0.5em;
+  padding: 1em;
+  background-color: #707070;
 }
 
 .main-nav li a {
@@ -18,11 +20,11 @@
 }
 
 .main-nav li.active a {
-  border: 2px solid black;
+  border: 2px solid #282828;
 }
 
 .main-nav li a:hover {
-  border: 1px solid black;
+  border: 1px solid #282828;
 }
 
 body {
@@ -32,6 +34,7 @@ body {
   font-size: 100%;
   font: inherit;
   text-align: center;
+  background-color: #000000;
 }
 
 h1 {
@@ -50,5 +53,6 @@ footer {
   width: 90%;
   left: 5%;
   padding: 1em;
-  border: 2px solid black;
+  border: 2px solid #282828;
+  background-color: #707070;
 }
