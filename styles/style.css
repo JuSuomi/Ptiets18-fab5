@@ -11,7 +11,7 @@
 .main-nav li {
   display: inline-block;
   padding: 1em;
-  background-color: rgba(30, 35, 40, 0.75);
+  background-color: rgba(30, 35, 40, 0.95);
 }
 
 .main-nav li a {
@@ -32,7 +32,8 @@
 body {
   background-image: url("../images/wall_4k.jpg.jpg");
   background-size: cover;
-  margin: 0;
+  max-width: 1000px;
+  margin: auto;
   border: 0;
   padding: 1em 1em;
   font-size: 100%;
@@ -42,8 +43,22 @@ body {
   background-color: #000000;
 }
 
+div {
+  background-color: rgba(30, 35, 40, 0.90);
+}
+
+a {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
 h1 {
   font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -55,10 +70,13 @@ p {
 footer {
   box-sizing: border-box;
   position: fixed;
+  background-color: rgba(30, 35, 40, 0.95);
   bottom: 0.5em;
   width: 90%;
-  left: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: inherit;
+  margin: inherit;
   padding: 0.5em;
-  border: 2px solid white;
   color: white;
 }
