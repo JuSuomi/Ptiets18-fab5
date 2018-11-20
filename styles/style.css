@@ -46,7 +46,10 @@ body {
 div {
   background-color: rgba(30, 35, 40, 0.90);
 }
-
+img {
+  max-width: 300px;
+  max-heigt: auto;
+}
 a {
   color: #ffffff;
   font-size: 1.1em;
