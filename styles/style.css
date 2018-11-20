@@ -32,6 +32,8 @@
 body {
   background-image: url("../images/wall_4k.jpg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   max-width: 1000px;
   margin: auto;
   border: 0;
@@ -45,10 +47,10 @@ body {
 
 div {
   background-color: rgba(30, 35, 40, 0.90);
-}
+  }
 img {
   max-width: 300px;
-  max-heigt: auto;
+  max-height: auto;
 }
 a {
   color: #ffffff;
@@ -56,6 +58,7 @@ a {
 }
 
 h1 {
+  font-family: "Trade Winds"
   font-size: 3em;
   font-weight: bold;
 }
@@ -67,7 +70,7 @@ h2 {
 
 p {
   /*background-color: rgba(30, 35, 40, 0.5); '*/
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 footer {
