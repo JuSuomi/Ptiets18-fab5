@@ -16,7 +16,6 @@
 
 .main-nav li a {
   text-decoration: none;
-  font-family: sans-serif;
   padding: 0.5em 1em;
   color: #ffffff;
 }
@@ -45,25 +44,31 @@ body {
   background-color: #000000;
 }
 
+header {
+  font-family: 'Trade Winds', cursive;
+}
+
 div {
   background-color: rgba(30, 35, 40, 0.90);
   }
+
 img {
   max-width: 300px;
   max-height: auto;
 }
+
 a {
   color: #ffffff;
   font-size: 1.1em;
 }
 
 h1 {
-  font-family: "Trade Winds"
   font-size: 3em;
   font-weight: bold;
 }
 
 h2 {
+  font-family: 'Trade Winds', cursive;
   font-size: 2em;
   font-weight: bold;
 }
