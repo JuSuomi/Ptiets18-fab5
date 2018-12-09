@@ -1,42 +1,45 @@
 /* Los Studios Inc. */
-/*
-@media only screen and (min-width: 600px) {
+
   /* For phones */
 
 .main-nav {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin: 1em 5em 2em 5em;
-  color: #ffffff;
+  list-style-type: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+/* Isommalle näytölle */
+
+@media only screen and (min-width: 570px) {
+  header {
+    padding-bottom: 0.5em;
+  }
+  .main-nav li {
+    display: inline-block;
+    float: none;
+    padding: 3px 1em;
+    width: auto;
+  }
 }
 
 .main-nav li {
-  display: inline-block;
-  /*padding: 1em;*/
-  background-color: rgba(30, 35, 40, 0.95);
-}
-
-.main-nav li a {
-  text-decoration: none;
-  padding: 0 1em;
-  color: #ffffff;
+  border: 1px solid #666;
+  background-color: rgba(30, 35, 40, 0.80);
+  padding: 3px 1em;
+  margin: 3px 0 0;
+  text-decoration: none; font-size: 1.2em;
+  font-size: 1em
 }
 
 .main-nav li.active a {
-  border: 2px solid #802828;
-}
-
-.main-nav li a:hover {
-  border: 1.5px solid #802828;
+  text-shadow: 1.25px 1.25px #ff2020;
 }
 
 body {
   background-image: url("../images/wall_4k.jpg.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  max-width: 1000px;
+  background-repeat: no-repeat; background-attachment: fixed;
+  max-width: 1200px;
   margin: auto;
   border: 0;
   padding: 1em 1em;
@@ -52,8 +55,8 @@ header {
 }
 
 div {
-  background-color: rgba(30, 35, 40, 0.90);
-  }
+  background-color: rgba(30, 35, 40, 0.80);
+}
 
 img {
   max-width: 300px;
@@ -66,31 +69,26 @@ a {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 1.85em;
   font-weight: bold;
 }
 
 h2 {
   font-family: 'Trade Winds', cursive;
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 p {
-  /*background-color: rgba(30, 35, 40, 0.5); '*/
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 footer {
-  /*box-sizing: border-box;*/
-  position: fixed;
-  background-color: rgba(30, 35, 40, 0.95);
+  background-color: rgba(30, 35, 40, 0.80);
   bottom: 0.5em;
-  width: 90%;
-  margin-left: 5%;
-  /*margin-right: 5%;*/
   max-width: inherit;
-  margin: inherit;
+  margin-top: 1em;
   padding: 0.5em;
   color: white;
 }
