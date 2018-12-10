@@ -1,0 +1,97 @@
+/* Los Studios Inc. */
+/*
+@media only screen and (min-width: 600px) {
+  /* For phones */
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 2em 0;
+  color: #ffffff;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 1em;
+  width: 20%;
+  background-color: rgba(30, 35, 40, 0.95);
+}
+
+.main-nav li a {
+  text-decoration: none;
+  padding: 0 1em;
+  color: #ffffff;
+}
+
+.main-nav li.active a {
+  border: 2px solid #802828;
+}
+
+.main-nav li a:hover {
+  border: 1.5px solid #802828;
+}
+
+body {
+  background-image: url("../images/wall_4k.jpg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1000px;
+  margin: auto;
+  border: 0;
+  padding: 1em 1em;
+  font-size: 100%;
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+header {
+  font-family: 'Trade Winds', cursive;
+}
+
+div {
+  background-color: rgba(30, 35, 40, 0.90);
+  }
+
+img {
+  max-width: 300px;
+  max-height: auto;
+}
+
+a {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Trade Winds', cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  /*background-color: rgba(30, 35, 40, 0.5); '*/
+  font-size: 1.2em;
+}
+
+footer {
+  /*box-sizing: border-box;*/
+  position: fixed;
+  background-color: rgba(30, 35, 40, 0.95);
+  bottom: 0.5em;
+  width: 90%;
+  margin-left: 5%;
+  /*margin-right: 5%;*/
+  max-width: inherit;
+  margin: inherit;
+  padding: 0.5em;
+  color: white;
+}
