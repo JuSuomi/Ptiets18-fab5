@@ -8,9 +8,26 @@
   margin: 1em 0;
 }
 
-/* Isommalle näytölle */
+/* Tabletille */
 
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 480px) {
+  header {
+    padding-bottom: 0.5em;
+  }
+  .main-nav li {
+    display: inline-block;
+    float: none;
+    padding: 3px 1em;
+    width: 24%;
+  }
+  .main-nav li a {
+    text-decoration: none;
+  }
+}
+
+/* Tietokoneen näytölle */
+
+@media only screen and (min-width: 760px) {
   header {
     padding-bottom: 0.5em;
   }
@@ -19,6 +36,9 @@
     float: none;
     padding: 3px 1em;
     width: auto;
+  }
+  .main-nav li a {
+    text-decoration: none;
   }
 }
 
@@ -59,6 +79,11 @@ div {
   background-color: rgba(30, 35, 40, 0.80);
 }
 
+.feedback {
+  background-color: rgba(30, 35, 40, 0);
+  margin: 3em 0;
+}
+
 img {
   max-width: 300px;
   max-height: auto;
@@ -85,7 +110,14 @@ p {
   font-size: 1.1em;
 }
 
-ul.contact {
+.map {
+  list-style-type: none;
+  display: inline-block;
+  width: auto;
+  vertical-align: top;
+}
+
+.contact {
   padding: 0;
 }
 .contact li {
