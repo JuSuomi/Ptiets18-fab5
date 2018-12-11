@@ -8,7 +8,7 @@
   margin: 1em 0;
 }
 body {
-  background-image: url(..images/wall_480.jpg;
+  background-image: url(..images/wall_480.jpg);
 }
 /* Tabletille */
 
@@ -26,144 +26,144 @@ body {
     text-decoration: none;
   }
   body {
-    background-image: url(..images/wall_760.jpg;
+    background-image: url(..images/wall_760.jpg);
   }
 }
 
 /* Tietokoneen näytölle */
 
 @media only screen and (min-width: 760px) {
-  header {
-    padding-bottom: 0.5em;
-  }
+    header {
+      padding-bottom: 0.5em;
+    }
+    .main-nav li {
+      display: inline-block;
+      float: none;
+      padding: 3px 1em;
+      width: auto;
+    }
+    .main-nav li a {
+      text-decoration: none;
+    }
+
   .main-nav li {
-    display: inline-block;
-    float: none;
+    border: 1px solid #666;
+    background-color: rgba(30, 35, 40, 0.80);
     padding: 3px 1em;
-    width: auto;
-  }
-  .main-nav li a {
+    margin: 3px 0 0;
     text-decoration: none;
+    font-size: 1.1em;
   }
-}
 
-.main-nav li {
-  border: 1px solid #666;
-  background-color: rgba(30, 35, 40, 0.80);
-  padding: 3px 1em;
-  margin: 3px 0 0;
-  text-decoration: none;
-  font-size: 1.1em;
-}
+  .main-nav li.active a {
+    text-shadow: 1.25px 1.25px #ff2020;
+  }
 
-.main-nav li.active a {
-  text-shadow: 1.25px 1.25px #ff2020;
-}
+  body {
+    background-image: url("../images/wall_fhd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 1200px;
+    margin: auto;
+    border: 0;
+    padding: 1em 1em;
+    font-size: 100%;
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+  }
 
-body {
-  background-image: url("../images/wall_fhd.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  max-width: 1200px;
-  margin: auto;
-  border: 0;
-  padding: 1em 1em;
-  font-size: 100%;
-  font: inherit;
-  text-align: center;
-  color: #ffffff;
-  background-color: #000000;
-}
+  header {
+    font-family: 'Trade Winds', cursive;
+  }
 
-header {
-  font-family: 'Trade Winds', cursive;
-}
+  div {
+    background-color: rgba(30, 35, 40, 0.80);
+  }
 
-div {
-  background-color: rgba(30, 35, 40, 0.80);
-}
+  .feedback {
+    background-color: rgba(30, 35, 40, 0);
+    margin: 3em 0;
+  }
+  /*Input feeds text area responsiveness test*/
+  textarea[type=text], select, textarea{
+    width:50%
+  }
+  input[type=text], select, textarea{
+    max-width:65px
+    width:50%
+  }
 
-.feedback {
-  background-color: rgba(30, 35, 40, 0);
-  margin: 3em 0;
-}
-/*Input feeds text area responsiveness test*/
-textarea[type=text], select, textarea{
-  width:50%
-}
-input[type=text], select, textarea{
-  max-width:65px
-  width:50%
-}
+  img {
+    max-width: 300px;
+    max-height: auto;
+  }
 
-img {
-  max-width: 300px;
-  max-height: auto;
-}
+  a {
+    color: #ffffff;
+    font-size: 1.1em;
+  }
 
-a {
-  color: #ffffff;
-  font-size: 1.1em;
-}
+  h1 {
+    font-size: 1.85em;
+    font-weight: bold;
+  }
 
-h1 {
-  font-size: 1.85em;
-  font-weight: bold;
-}
+  h2 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
-h2 {
-  font-family: 'Trade Winds', cursive;
-  font-size: 1.25em;
-  font-weight: bold;
-  text-decoration: underline;
-}
+  p {
+    font-size: 1.1em;
+  }
 
-p {
-  font-size: 1.1em;
-}
+  .map {
+    list-style-type: none;
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+  }
 
-.map {
-  list-style-type: none;
-  display: inline-block;
-  width: auto;
-  vertical-align: top;
-}
+  .contact {
+    padding: 0;
+  }
+  .contact li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em 1em;
+    vertical-align: top;
+  }
+  .contact p.mugshotname {
+    font-size: 16px;
+    font-family: monospace;
+    background-color: rgba(00, 00, 00, 1);
+    padding: 3px;
+    border: 3px solid #ffffff;
+    margin: 0;
+    max-width: 180px;
+    position: relative;
+    top: -100px;
+    left: 54px;
+  }
 
-.contact {
-  padding: 0;
-}
-.contact li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 1em 1em;
-  vertical-align: top;
-}
-.contact p.mugshotname {
-  font-size: 16px;
-  font-family: monospace;
-  background-color: rgba(00, 00, 00, 1);
-  padding: 3px;
-  border: 3px solid #ffffff;
-  margin: 0;
-  max-width: 180px;
-  position: relative;
-  top: -100px;
-  left: 54px;
-}
-
-footer {
-  background-color: rgba(30, 35, 40, 0.80);
-  bottom: 0.5em;
-  max-width: inherit;
-  margin-top: 1em;
-  padding: 0.5em;
-  color: white;
+  footer {
+    background-color: rgba(30, 35, 40, 0.80);
+    bottom: 0.5em;
+    max-width: inherit;
+    margin-top: 1em;
+    padding: 0.5em;
+    color: white;
+  }
 }
 
 /* 4K näytölle */
 @media only screen and (min-width: 1921px) {
-}
-body {
-  background-image: url(..images/wall_4k.jpg;
+  body {
+    background-image: url(..images/wall_4k.jpg);
+  }
 }
