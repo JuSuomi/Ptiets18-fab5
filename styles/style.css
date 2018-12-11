@@ -83,6 +83,14 @@ div {
   background-color: rgba(30, 35, 40, 0);
   margin: 3em 0;
 }
+/*Input feeds text area responsiveness test*/
+textarea[type=text], select, textarea{
+  width:50%
+}
+input[type=text], select, textarea{
+  max-width:65px
+  width:50%
+}
 
 img {
   max-width: 300px;
